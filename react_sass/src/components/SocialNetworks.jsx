@@ -13,7 +13,7 @@ const SocialNetworks = () => {
     {/* {socialNetworks.map((network) => (
         <a href="#" className="social-btn" id={network.name} key={network.name}>
             {network.icon}
-        </a>
+         </a>
     ))} */}
     <a href="https://www.linkedin.com/in/alann-moreira/" target="_blank" className="social-btn" id="linkedin" key="linkedin">
       <FaLinkedinIn />
