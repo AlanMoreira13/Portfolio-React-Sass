@@ -5,8 +5,6 @@ import {
     DiNodejsSmall,
     DiReact,
     DiBootstrap,
-    DiJavascript,
-    DiJavascript1
 } from "react-icons/di"
 
 import "../styles/components/technologiescontainer.sass"
@@ -30,8 +28,13 @@ const TechnologiesContainer = () => {
                     {tech.icon}
                     <div className="technology-info">
                         <h3>{tech.name}</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
+                        <p>{tech.id === "html" && ("7 meses estudando e praticando")}</p>
+                        <p>{tech.id === "css" && ("7 meses estudando e praticando")}</p>
+                        <p>{tech.id === "js" && ("6 meses estudando e praticando")}</p>
+                        <p>{tech.id === "bootstrap" && ("4 meses estudando e praticando")}</p>
+                        <p>{tech.id === "node" && ("3 meses estudando e praticando")}</p>
+                        <p>{tech.id === "react" && ("3 meses estudando e praticando")}</p>
+                        
                     </div>
                 </div>
             ))}

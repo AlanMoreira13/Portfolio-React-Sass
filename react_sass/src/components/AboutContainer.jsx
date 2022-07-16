@@ -2,8 +2,8 @@
 const AboutContainer = () => {
   return ( <section className="about-container">
     <h2>Sobre</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque numquam repellendus incidunt porro ab nihil quibusdam nobis dolore, esse doloribus similique error aliquid unde natus explicabo quidem voluptatibus officia culpa.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse asperiores doloremque aspernatur qui reiciendis quam sint nostrum tempore consequuntur possimus odio commodi animi id, error tenetur? Voluptatibus laboriosam sapiente libero?</p>
+    <p>Olá 😃! Meu nome é Alan, tenho 29 anos e sou um desenvolvedor, com mais afinidade ao Front-End. Busco minha primeira oportunidade na área como estagiário ou Júnior. Meu foco no momento é me aprimorar cada vez mais dia após dia!</p>
+    <p>Sobre minhas "soft skills" posso dizer que sou bastante determinado, tenho muita vontade de aprender coisas novas, trabalho muito bem em equipe e não deixo a pressão afetar meu raciocínio.</p>
   </section>
   )
 }
