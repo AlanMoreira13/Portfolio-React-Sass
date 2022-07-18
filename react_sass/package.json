@@ -1,8 +1,8 @@
 {
   "name": "react_sass",
   "private": true,
-  "homepage": "https://alanmoreira13.github.io/Portfolio-React-Sass/",
   "version": "0.0.0",
+  "homepage": "./",
   "type": "module",
   "scripts": {
     "dev": "vite",
