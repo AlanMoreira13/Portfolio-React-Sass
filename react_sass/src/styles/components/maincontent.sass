@@ -21,6 +21,10 @@
 
         &:after
             @include mixins.border-gradient
+        @media screen and ( max-width: 470px)
+            font-size: 1.7rem
+
+
 
     p
         color: variables.$text-color-secundary
@@ -29,6 +33,21 @@
             
     .btn
         @include mixins.btn
-        align-self: start
+        align-self: center
+        @media screen and ( max-width: 470px) 
+            animation: piscar 1s alternate infinite
+            
+            
+            
+          
+
+@keyframes piscar
+
+        0% 
+            color: #fff
+            
+        100%
+            color: #aaa
+            
         
     

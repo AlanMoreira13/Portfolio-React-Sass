@@ -24,7 +24,26 @@
         border-radius: variables.$card-boder-radius
         margin-top: 13rem
         padding: .8rem 1.2rem
+        @media screen and ( max-width: 470px) 
+            font-size: 1.05rem
+            
+            
+
 
     .btn
         @include mixins.btn
-        
+        @media screen and ( max-width: 470px) 
+            animation: piscar 1s alternate infinite
+            
+            
+            
+          
+
+@keyframes piscar
+
+        0% 
+            color: #fff
+            
+        100%
+            color: #aaa
+            
