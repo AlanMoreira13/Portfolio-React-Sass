@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "publicar": "npm run build && ./node_modules/.bin/gh-pages -d build"
+    "publicar": "npm run build"
   },
   "dependencies": {
     "react": "^18.2.0",
