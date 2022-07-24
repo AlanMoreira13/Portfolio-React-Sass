@@ -1,16 +1,25 @@
-import MainContent from "./components/MainContent"
-import Sidebar from "./components/Sidebar"
-import SocialNetworks from "./components/SocialNetworks"
+
+
+import {BrowserRouter, Routes, Route} from "react-router-dom"
 
 import "./styles/components/app.sass"
+import Navbar from "./components/Navbar"
+
+// Pages
+import Projects from "./pages/Projects/Projects"
+import Home from "./pages/Home/Home"
 
 function App() {
 
   return (
     <div id="portfolio">
-      <h1>Alan Moreira</h1>
-      <Sidebar />
-      <MainContent />
+      <BrowserRouter>
+        <Navbar />
+          <Routes>
+            <Route path="portfolio-deploy/" element={<Home />} />
+            <Route path="portfolio-deploy/projects" element={<Projects />} />
+          </Routes>
+      </BrowserRouter>
     </div>
   )
 }

@@ -1,0 +1,164 @@
+@use  "../../styles/variables"
+
+
+    
+.container-projetos-grade
+    padding: 3rem 0 0 0
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    gap: 100px 
+    -webkit-animation: swing 1s ease
+        animation: swing 1s ease
+    -webkit-animation-iteration-count: 1
+    animation-iteration-count: 1
+    @media screen and ( max-width: 470px) 
+            gap: 30px
+            padding: 3rem 2rem 3rem 2rem
+
+
+
+    
+
+    .container-projeto-individual
+        width: 400px
+        height: 300px
+        border: none
+        transition: .5s
+        border-radius: 8px
+        
+
+        
+
+        .container-info
+            height: 19%
+            display: flex
+            justify-content: space-evenly
+            align-items: center
+            border-bottom: 1px solid #fff
+
+
+            .container-techs
+                display: flex
+                
+
+
+            p
+                background: variables.$gradient
+                -webkit-background-clip: text
+                -webkit-text-fill-color: transparent
+                font-size: 20px
+            
+
+            .icon
+                font-size: 35px
+
+            .i-bootstrap
+                color: #7952B3
+
+            .i-github
+                color: #565656
+
+            .i-react
+                color: #5CCFEE
+
+            .i-firebase
+                color: #F2C12B
+
+            .i-mongo
+                color: #0FA14C
+
+            .i-api
+                color: #1DB29A
+
+            .i-html
+                color: #D84924
+
+            .i-css
+                color: #254BE3
+
+            .i-js
+                color: #E9D204
+
+
+
+
+
+
+
+    img
+        width: 100%
+        height: 80%
+        border-radius: 8px 8px 0 0
+
+    
+
+
+
+
+
+@-webkit-keyframes swing
+
+    15%
+    
+        -webkit-transform: translateX(5px)
+        transform: translateX(5px)
+    
+    30%
+    
+        -webkit-transform: translateX(-5px)
+        transform: translateX(-5px)
+     
+    50%
+    
+        -webkit-transform: translateX(3px)
+        transform: translateX(3px)
+    
+    65%
+    
+        -webkit-transform: translateX(-3px)
+        transform: translateX(-3px)
+    
+    80%
+    
+        -webkit-transform: translateX(2px)
+        transform: translateX(2px)
+    
+    100%
+    
+        -webkit-transform: translateX(0)
+        transform: translateX(0)
+    
+
+@keyframes swing
+
+    15%
+    
+        -webkit-transform: translateX(5px)
+        transform: translateX(5px)
+    
+    30%
+    
+        -webkit-transform: translateX(-5px)
+        transform: translateX(-5px)
+    
+    50%
+    
+        -webkit-transform: translateX(3px)
+        transform: translateX(3px)
+    
+    65%
+    
+        -webkit-transform: translateX(-3px)
+        transform: translateX(-3px)
+    
+    80%
+    
+        -webkit-transform: translateX(2px)
+        transform: translateX(2px)
+    
+    100%
+    
+        -webkit-transform: translateX(0)
+        transform: translateX(0)
+    

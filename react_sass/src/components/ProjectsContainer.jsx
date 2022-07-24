@@ -1,4 +1,4 @@
-import React from 'react'
+import { NavLink } from "react-router-dom"
 
 const ProjectsContainer = () => {
   return (
@@ -7,9 +7,10 @@ const ProjectsContainer = () => {
         <p>
             Alguns dos meus projetos que fui desenvolvendo ao longo de cursos e bootcamps que participo.
         </p>
-        <a href="https://github.com/AlanMoreira13?tab=repositories" target="_blank" className="btn">
-            Ver projetos
-        </a>
+                
+        <NavLink className="btn" to="portfolio-deploy/projects" >
+            Projetos
+        </NavLink>
     </section>
   )
 }

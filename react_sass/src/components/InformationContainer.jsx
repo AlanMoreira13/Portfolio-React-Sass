@@ -3,7 +3,7 @@ import {FaWhatsapp } from "react-icons/fa"
 
 
 import "../styles/components/informationcontainer.sass"
-const informationContainer = () => {
+const InformationContainer = () => {
   return <section id="information">
     <div className="info-card">
         <a href="https://wa.me/5551993590452" target="_blank"><FaWhatsapp id="phone-icon" /></a> 
@@ -29,4 +29,4 @@ const informationContainer = () => {
   </section>
 }
 
-export default informationContainer
+export default InformationContainer
