@@ -1,4 +1,4 @@
-# Portfolio-React-Sass ( Em construção 🚧👷🏽‍♂️ )
+# Portfolio-React-Sass
 
 Projeto criado para demonstrar minha linha de aprendizado até o momento, na criação desse projeto pude aprender coisas novas e por em prática o que já venho aprendendo ao longo do tempo.
 
